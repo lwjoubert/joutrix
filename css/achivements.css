@@ -52,6 +52,8 @@
 .navbar ul li:hover:after{
 	width: 100%;
 }
+
+
 .content{
 	position: relative;
 	text-align: center;
@@ -59,6 +61,11 @@
 	padding-top: 20px;
 	padding-bottom: 50px;
     background-color: #CDCDCD;
+}
+.content hr{ */
+    display:inherit;
+    border: none;
+    margin: 100px 0;
 }
 .content h1{
 	font-family: "BP";
@@ -69,14 +76,14 @@
 }
 .content p{
 	font-family: "BP";
-	margin: 20px auto;
+    text-align: center;
+    margin:auto;
 	font-size: 15px;
 	font-weight: 100;
 	color: #000;
-	text-align: left;
+	text-align: auto;
 	line-height: 1.5;
 	width: 60%;
-
 }
 .content ul.a{
 	font-family: "BP";
