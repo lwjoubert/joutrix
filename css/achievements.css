@@ -1,0 +1,118 @@
+@font-face{
+	font-family: "Eastone";
+	src: url(fonts/eastone.ttf);
+}
+@font-face{
+	font-family: "BP";
+	src: url(fonts/BPmono.ttf);
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.banner{
+	font-family: "Eastone";
+	width: 100%;
+	height: 100vh;
+	background-color: #CDCDCD;
+}
+.navbar{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width: 120px;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: #000;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+.navbar ul li:hover:after{
+	width: 100%;
+}
+
+
+.content{
+	position: relative;
+	text-align: center;
+	color: black;
+	padding-top: 20px;
+	padding-bottom: 50px;
+    background-color: #CDCDCD;
+}
+.content hr{ */
+    display:inherit;
+    border: none;
+    margin: 100px 0;
+}
+.content h1{
+	font-family: "BP";
+	width: 100%;
+	font-size: 50px;
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+.content p{
+	font-family: "BP";
+    text-align: center;
+    margin:auto;
+	font-size: 15px;
+	font-weight: 100;
+	color: #000;
+	text-align: auto;
+	line-height: 1.5;
+	width: 60%;
+}
+.content ul.a{
+	font-family: "BP";
+	margin: 10px auto;
+	font-size: 15px;
+	font-weight: 100;
+	color: #000;
+	text-align: left;
+	line-height: 1.5;
+	width: 60%;
+	list-style-position: inside;
+	list-style-type: disc;
+}
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: #13baa4;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 15px;
+	font-family: "Eastone";
+}
+#myBtn:hover{
+	background-color: red;
+}
