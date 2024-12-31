@@ -116,3 +116,21 @@
 #myBtn:hover{
 	background-color: red;
 }
+
+.image-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px; /* Adjust the gap between images as needed */
+		justify-content: center;
+      }
+.image-row img {
+        max-width: 100%;
+        height: auto;
+      }
+.image-row figure {
+        margin: 0;
+      }
+.image-row figcaption {
+        text-align: center;
+      }
+.image-row a { cursor: pointer; }
