@@ -10,41 +10,61 @@
   </head>
   <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    <script>
-      let mybutton = document.getElementById("myBtn");
-      window.onscroll = function() {scrollFunction()};
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      	mybutton.style.display = "block";
-        } else {
-      	mybutton.style.display = "none";
-        }
-      }
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-    </script>
+    <script src="js/top.js"></script>
     <div class="banner">
       <div class="navbar">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
-		  <li><a href="achievements.html">Achievements</a></li>
+          <li><a href="achievements.html">Achievements</a></li>
         </ul>
       </div>
       <div class="content">
         <h1>Achievements</h1>
-		<a href="https://app.hackthebox.com/profile/1595651" target="_blank">
-		<img src="https://www.hackthebox.com/badge/image/1595651" alt="HackTheBox Badge" /></a>
-		<img src="https://tryhackme-badges.s3.amazonaws.com/WJoubert.png" alt="TryHackMe Badge" />
-		<div><hr></div>
-		<h1>Certificates</h1>
-		<a href="https://academy.hackthebox.com/achievement/badge/181311c2-7ff9-11ef-864f-bea50ffe6cb4" target="_blank">
-		<img src="images/cpts.png" alt="CPTS" width="150" height="150"/> </a>
-	  </div>
+<!--        <div class="image-row"> -->
+          <a href="https://app.hackthebox.com/profile/1595651" target="_blank">
+            <img src="https://www.hackthebox.com/badge/image/1595651" alt="HackTheBox Badge" />
+          </a>
+          <img src="https://tryhackme-badges.s3.amazonaws.com/WJoubert.png" alt="TryHackMe Badge" />
+<!--	  <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2190505" style='border:none;'></iframe> -->
+<!--        </div> -->
+        <hr>
+        <h1>Certificates</h1>
+        <div class="image-row">
+          <a href="https://academy.hackthebox.com/achievement/badge/181311c2-7ff9-11ef-864f-bea50ffe6cb4" target="_blank">
+            <img src="images/cpts.png" alt="CPTS" width="150" height="150"/> 
+          </a>
+        </div>
+        <hr>
+        <h1>Certificates of Completion</h1>
+        <div class="image-row">
+          <figure>
+            <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-REDNKLJ8QD.pdf" target="_blank">
+              <img src="images/tryhackme.png" alt="Advent of Cyber 2024"/>
+            </a>
+            <figcaption>Advent of Cyber 2024</figcaption>
+          </figure>
+          <figure>
+            <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-XVA5QW80LX.pdf" target="_blank">
+              <img src="images/tryhackme.png" alt="Jr Penetration Tester"/>
+            </a>
+            <figcaption>Jr Penetration Tester</figcaption>
+          </figure>
+          <figure>
+            <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-2A9UE2IWXW.pdf" target="_blank">
+              <img src="images/tryhackme.png" alt="Cyber Security 101"/>
+            </a>
+			<figcaption>Cyber Security 101</figcaption>
+          </figure>
+          <figure>
+            <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-XL3MRI53RT.pdf" target="_blank">
+              <img src="images/tryhackme.png" alt="Pre Security"/>
+            </a>
+			<figcaption>Pre Security</figcaption>
+          </figure>
+        </div>
+      </div>
     </div>
   </body>
 </html>
-//** 328x88
